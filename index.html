@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <div class="header container flex">
+        <nav class="header__nav">
+          <button data-aos="fade-left" data-aos-delay="300" class="header__link btn-reset work__link-btn--active" data-path="one">
+            Обо мне
+          </button>
+          <button data-aos="fade-left" data-aos-delay="400" class="header__link btn-reset" data-path="two">
+            Проекты
+          </button>
+          <button data-aos="fade-left" data-aos-delay="500" class="header__link btn-reset" data-path="three">
+            Контакты
+          </button>
+        </nav>
+      </div>
+      <div class="header__am container flex">
+        <div data-aos="fade-right" data-aos-delay="600" class="header__blog">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sodales diam nunc id bibendum eleifend id mauris.
+          Quam
+          nibh
+          suspendisse purus mauris scelerisque. Nibh diam turpis ipsum, neque vitae vulputate facilisi. Et eu ut tellus
+          ultrices
+          aliquam non porta.
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="me" class="active" data-target="one">
+    <div class="me flex">
+      <nav class="me__nav flex">
+        <a href="" class="me__link">
+          Главная
+        </a>
+        <button class="me__link header__link btn-reset" data-path="two">
+          Проекты
+        </button>
+        <button class="me__link header__link btn-reset" data-path="three">
+          Контакты
+        </button>
+      </nav>
+      <div class="me__block">
+        <div class="me__top-block flex">
+          <div class="me__top-left">
+            <h2 class="me__title title">
+              Обо мне
+            </h2>
+            <p class="me__descr">
+              Всем привет, меня зовут Аркадий, и я начинающий Frontend WEB разработчик. Почему именно он? Да потому что это первый шаг к моей мечте на пути: стать программистом.
+            </p>
+          </div>
+          <img src="./img/Rectangle4.png" alt="#" class="me__photo">
+        </div>
+      </div>
+      <div class="me__bot-block flex">
+        <div class="me__top-left">
+          <div class="me__left-one">
+            <h3 class="me__caption title">
+              Опыт работы
+            </h3>
+            <p class="me__descr">
+              Начался он еще время обучения в школе, и был "принеси, подай...". После поступления в универститет, желание работать не убавилось, поэтому нашел работу в ресторане быстрого питания, где работал больше года, за это время познакомился с кучей хороших людей, с которыми общаюсь до сих пор. За время работы несколько раз был работником месяца, что сулило небольшую премию))
+             <br> Следующая моя работа, была в такси, в которой я и сейчас работаю
+            </p>
+          </div>
+          <div class="me__left-two">
+            <h3 class="me__caption title">
+              Что я умею
+            </h3>
+            <p class="me__descr">
+              — Разрабатывать динамические, кроссбраузерные и адаптивные сайты с помощью HTML, CSS и JS  <br> — Анализировать и улучшать производительность web-страниц.
+              <br> — Пользоваться различными фреймворками, по типу Bootstrap <br>— Самостоятельно находить и устранять проблему в коде <br> — Быстро обучаться!!!
+            </p>
+          </div>
+        </div>
+        <div class="me__top-right">
+          <div class="me__right-one">
+            <h3 class="me__caption title">
+              Обучение
+            </h3>
+            <p class="me__descr">
+              Обучаться я начал по роликам на You Tube, которых очень много на этой платформе. Позже решил заняться обучением
+              серьезнее и
+              прошел курс от Skillbox (Frontend-разработчик).
+              Сейчас я не перестаю обучаться: читаю професииональную литературу и участвую в интенсивах по разработке.
+            </p>
+          </div>
+          <div class="me__right-two">
+            <h3 class="me__caption title">
+              Образование
+            </h3>
+            <p class="me__descr">
+              Белорусский национальный технический университет, специальность «Инженер-механик».
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project" class="active" data-target="two">
+    <div class="project container">
+      <nav class="me__nav flex">
+        <a href="" class="me__link">
+          Главная
+        </a>
+        <button class="me__link header__link btn-reset" data-path="one">
+          Обо мне
+        </button>
+        <button class="me__link header__link btn-reset" data-path="three">
+          Контакты
+        </button>
+      </nav>
+      <h2 class="project__title me__title title">
+        Проекты
+      </h2>
+      <div class="project__wrapper">
+        <div class="project__item">
+          <a href="" class="project__link flex">
+            <h3 class="project__caption title">
+              W-wave radio
+            </h3>
+            <div class="project__svg">
+              <img src="img/Frame24.svg" alt="#">
+            </div>
+            <p class="project__descr">
+              Описание проекта.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum a tempor sapien ac eu sollicitudin tortor, nullam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </a>
+        </div>
+        <div class="project__item">
+          <h3 class="project__caption title">
+            Lagoona hotel
+          </h3>
+          <div class="project__svg">
+            <img src="img/Frame25.svg" alt="#">
+          </div>
+          <p class="project__descr">
+            Описание проекта.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum a tempor sapien ac eu sollicitudin tortor, nullam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="project__item">
+          <h3 class="project__caption title">
+            Efimchik Studio
+          </h3>
+          <div class="project__svg">
+            <img src="img/Frame27.svg" alt="#">
+          </div>
+          <p class="project__descr">
+            Описание проекта.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum a tempor sapien ac eu sollicitudin tortor, nullam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="project__item">
+          <h3 class="project__caption title">
+            Evklid
+          </h3>
+          <div class="project__svg">
+            <img src="img/Frame26.svg" alt="#">
+          </div>
+          <p class="project__descr">
+            Описание проекта.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum a tempor sapien ac eu sollicitudin tortor, nullam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="active" data-target="three">
+    <div class="footer">
+      <nav class="me__nav flex">
+        <a href="" class="me__link">
+          Главная
+        </a>
+        <button class="me__link header__link btn-reset" data-path="one">
+          Обо мне
+        </button>
+        <button class="me__link header__link btn-reset" data-path="two">
+          Проекты
+        </button>
+      </nav>
+      <h2 class="footer__title title me__title">
+        контакты
+      </h2>
+      <p class="footer__descr">
+        Я открыт для сотрудничества. Буду рад предоставить дополнительную информацию. Связать со мной можно любым удобным способом.
+      </p>
+      <div class="footer__blog">
+        <a href="tel:+375298015216" class="footer__link-tel">+375 (29) 801 52 16</a>
+        <div class="footer__soc-links">
+          <a href="" class="footer__link">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.6667 3.3335L17.3333 21.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35.6667 3.3335L24 36.6668L17.3333 21.6668L2.33333 15.0002L35.6667 3.3335Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="" class="footer__link">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25.6667 13.3335C28.3188 13.3335 30.8624 14.3871 32.7377 16.2624C34.6131 18.1378 35.6667 20.6813 35.6667 23.3335V35.0002H29V23.3335C29 22.4494 28.6488 21.6016 28.0237 20.9765C27.3986 20.3514 26.5507 20.0002 25.6667 20.0002C24.7826 20.0002 23.9348 20.3514 23.3096 20.9765C22.6845 21.6016 22.3333 22.4494 22.3333 23.3335V35.0002H15.6667V23.3335C15.6667 20.6813 16.7202 18.1378 18.5956 16.2624C20.471 14.3871 23.0145 13.3335 25.6667 13.3335V13.3335Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 15H2.33333V35H9V15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.66667 10.0002C7.50761 10.0002 9 8.50778 9 6.66683C9 4.82588 7.50761 3.3335 5.66667 3.3335C3.82572 3.3335 2.33333 4.82588 2.33333 6.66683C2.33333 8.50778 3.82572 10.0002 5.66667 10.0002Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="" class="footer__link">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35.6667 3.3335L17.3333 21.6668" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35.6667 3.3335L24 36.6668L17.3333 21.6668L2.33333 15.0002L35.6667 3.3335Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
