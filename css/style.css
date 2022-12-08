@@ -29,7 +29,7 @@ body {
   min-width: 380px;
   overflow-x: hidden;
   background-color: black;
-  background-image: url('../img/Group1.png');
+  background-image: url('../img/Screenshot_2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Hero', sans-serif;
@@ -168,7 +168,7 @@ header{
   width: 100%;
   display: none;
   overflow-y: auto;
-  background-image: url('../img/Group1(1\).png');
+  background-image: url('../img/Screenshot_1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -253,7 +253,7 @@ header{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../img/Group8.png');
+  background-image: url('../img/Screenshot_3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -326,7 +326,7 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../img/Group1.png');
+  background-image: url('../img/Screenshot_2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
