@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/hover-min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,8 +16,8 @@
 
 <body>
   <header>
-    <div id="header">
-      <div class="header container flex">
+    <div id="header" class="container">
+      <div class="header flex">
         <nav class="header__nav">
           <button data-aos="fade-left" data-aos-delay="300" class="header__link btn-reset work__link-btn--active" data-path="one">
             Обо мне
@@ -48,56 +50,58 @@
           Контакты
         </button>
       </nav>
-      <div class="me__block">
-        <div class="me__top-block flex">
+      <div class="me__wrapper flex">
+        <div class="me__block">
+          <div class="me__top-block flex">
+            <div class="me__top-left">
+              <h2 class="me__title title">
+                Обо мне
+              </h2>
+              <p class="me__descr2">
+                Мне&nbsp;25, живу в&nbsp;Минске, готов рассмотреть любой график, вид занятости (удалёнка/офис) и&nbsp;даже переезд.
+              </p>
+              <div class="me__left-two">
+              <h3 class="me__caption title">
+                Что я умею
+              </h3>
+              <p class="me__descr">
+                — Разрабатывать динамические, кроссбраузерные и адаптивные сайты с помощью HTML, CSS и JS  <br> — Анализировать и улучшать производительность web-страниц.
+                <br> — Пользоваться различными фреймворками, по типу Bootstrap <br>— Самостоятельно находить и устранять проблему в коде <br> — Быстро обучаться!!!
+              </p>
+            </div>
+            </div>
+            <img src="./img/Rectangle4.png" alt="#" class="me__photo">
+          </div>
+        </div>
+        <div class="me__bot-block flex">
           <div class="me__top-left">
-            <h2 class="me__title title">
-              Обо мне
-            </h2>
-            <p class="me__descr">
-              Мне&nbsp;26, живу в&nbsp;Минске, готов рассмотреть любой график, вид занятости (удалёнка/офис) и&nbsp;даже переезд.
-            </p>
-            <div class="me__left-two">
-            <h3 class="me__caption title">
-              Что я умею
-            </h3>
-            <p class="me__descr">
-              — Разрабатывать динамические, кроссбраузерные и адаптивные сайты с помощью HTML, CSS и JS  <br> — Анализировать и улучшать производительность web-страниц.
-              <br> — Пользоваться различными фреймворками, по типу Bootstrap <br>— Самостоятельно находить и устранять проблему в коде <br> — Быстро обучаться!!!
-            </p>
+            <div class="me__left-one">
+              <h3 class="me__caption title">
+                Опыт работы
+              </h3>
+              <p class="me__descr">
+                Весь мой опыт, связанный с разработкой, заключается в создание сайтов на курсе и тестовых, предлогаемых работодателем.
+              </p>
+            </div>
           </div>
-          </div>
-          <img src="./img/Rectangle4.png" alt="#" class="me__photo">
-        </div>
-      </div>
-      <div class="me__bot-block flex">
-        <div class="me__top-left">
-          <div class="me__left-one">
-            <h3 class="me__caption title">
-              Опыт работы
-            </h3>
-            <p class="me__descr">
-              Весь мой опыт, связанный с разработкой, заключается в создание сайтов на курсе и тестовых, предлогаемых работодателем.
-            </p>
-          </div>
-        </div>
-        <div class="me__top-right">
-          <div class="me__right-two">
-            <h3 class="me__caption title">
-              Образование
-            </h3>
-            <p class="me__descr">
-              Белорусский национальный технический университет, специальность «Инженер-механик».
-              прошел курс от Skillbox (Frontend-разработчик).
-              Сейчас я не перестаю обучаться: читаю професииональную литературу и участвую в интенсивах по разработке.
-            </p>
+          <div class="me__top-right">
+            <div class="me__right-two">
+              <h3 class="me__caption title">
+                Образование
+              </h3>
+              <p class="me__descr">
+                Белорусский национальный технический университет, специальность «Инженер-механик». <br>
+                Прошел курс от Skillbox (Frontend-разработчик).
+                Сейчас я не перестаю обучаться: читаю професииональную литературу и участвую в интенсивах по разработке.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <section id="project" class="active" data-target="two">
-    <div class="project container">
+    <div class="project">
       <nav class="me__nav flex">
         <a href="" class="me__link hvr-underline-from-center">
           Главная
@@ -112,7 +116,7 @@
       <h2 class="project__title me__title title">
         Проекты
       </h2>
-      <div class="project__wrapper">
+      <div class="project__wrapper owl-carousel">
         <div class="project__item" >
           <a href="https://kadikkay.github.io/w-radio__desctop/" class="project__link flex">
             <h3 class="project__caption title">
@@ -165,8 +169,6 @@
             </p>
           </a>
         </div>
-
-
       </div>
     </div>
   </section>
@@ -218,6 +220,8 @@
       </div>
     </div>
   </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/index.js"></script>
 </body>
