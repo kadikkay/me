@@ -16,3 +16,22 @@ headerLink.forEach(function(element){
     document.querySelector(`[data-target="${path}"]`).classList.add('tabs-item--active');
   })
 })
+
+$(document).ready(function(){
+  $(".project__wrapper").owlCarousel({
+    items: 4,
+    margin: 25,
+    nav: true,
+    responsive: {
+      1920: {
+        items: 3
+      },
+      1600: {
+        items: 3
+      },
+      1500: {
+        items: 2
+      }
+    }
+  });
+});
