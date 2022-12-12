@@ -27,9 +27,15 @@ $(document).ready(function(){
         items: 3
       },
       1600: {
-        items: 3
+        items: 2
       },
       1500: {
+        items: 2
+      },
+      1480: {
+        items: 2
+      },
+      1280: {
         items: 2
       }
     }
