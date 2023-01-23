@@ -1,6 +1,3 @@
-AOS.init();
-
-
 
 let headerLink = document.querySelectorAll('.header__link');
 let tabsItem = document.querySelectorAll('.active');
