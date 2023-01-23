@@ -314,8 +314,8 @@ header{
 }
 
 .project__svg img{
-  width: 20vw;
-  height: 20vh;
+  width: 10vw;
+  height: 10vw;
 }
 
 .project__link{
@@ -378,9 +378,6 @@ header{
 }
 
 .footer__descr{
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 130%;
   color: #FFFFFF;
   width: 50%;
   margin-bottom: 50px;
@@ -465,4 +462,40 @@ header{
 
 .owl-next:hover{
   transform: translate(30%) scale(1.2);
+}
+
+@media (max-width: 1024px){
+  .title__bs{
+  font-size: 8vw;
+}
+
+.title__ms{
+  font-size: 3.5vw;
+}
+
+.title__ss{
+  font-size: 2.3vw;
+}
+
+.header__blog{
+  width: 70%;
+}
+
+.me__photo{
+  width: 30vw;
+  height: 35vw;
+}
+
+.me__top-block{
+  margin-bottom: 10px;
+}
+
+.project__svg img{
+  width: 35vw;
+  height: 35vw;
+}
+
+.footer__descr{
+  width: 70%;
+}
 }
