@@ -100,6 +100,27 @@ p {
   }
 }
 
+.title__bs{
+  font-weight: 400;
+  font-size: 10vh;
+  line-height: 90%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.title__ms{
+  font-weight: 400;
+  font-size: 4vh;
+  line-height: 120%;
+  color: #fff;
+}
+
+.title__ss{
+  font-weight: 400;
+  font-size: 2.7vh;
+  line-height: 130%;
+}
+
 /*header*/
 
 header{
@@ -130,9 +151,6 @@ header{
   color: #fff;
   text-align: right;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 104px;
-  line-height: 90%;
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
@@ -145,9 +163,6 @@ header{
   flex-direction: column;
   justify-content: start;
   width: 100%;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 130%;
   color: #FFFFFF;
 }
 
@@ -175,7 +190,7 @@ header{
 }
 
 .me{
-  max-width: calc(100vw - 20%);
+  max-width: calc(100vw - 15%);
   margin: 0 auto;
   flex-direction: column;
 }
@@ -193,9 +208,6 @@ header{
 }
 
 .me__link{
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 130%;
   color: #fff;
 }
 
@@ -218,19 +230,11 @@ header{
 }
 
 .me__title{
-  font-weight: 400;
-  font-size: 104px;
-  line-height: 65%;
-  color: #fff;
   margin-bottom: 30px;
-  text-transform: uppercase;
 }
 
 .me__descr,
 .me__descr2{
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 130%;
   color: #fff;
 }
 
@@ -261,9 +265,6 @@ header{
 }
 
 .me__caption{
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 130%;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -284,7 +285,7 @@ header{
 }
 
 .project{
-  max-width: calc(100vw - 20%);
+  max-width: calc(100vw - 15%);
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -308,6 +309,11 @@ header{
   width: 100%;
   transition: background-color .3s ease-in-out;
   height: 52vh;
+}
+
+.project__svg svg{
+  width: 10vw;
+  height: 10vh;
 }
 
 .project__link{
@@ -366,7 +372,7 @@ header{
 }
 
 .footer{
-  max-width: calc(100vw - 20%);
+  max-width: calc(100vw - 15%);
   width: 100%;
   margin: 0 auto;
 }
@@ -430,16 +436,6 @@ header{
   line-height: 130%;
 }
 
-.hvr-underline-from-center:before{
-  background-color: #fff;
-  height: 2px;
-}
-
-.hvr-underline-from-left::before{
-  background-color: #fff;
-  height: 2px;
-}
-
 .me__photo{
   height: 50vh;
   width: 20vw;
@@ -474,211 +470,4 @@ header{
 
 .owl-next:hover{
   transform: translate(30%) scale(1.2);
-}
-
-@media (max-width: 1900px) {
-  .header__nav .header__link{
-    font-size: 95px;
-  }
-
-  .header__am{
-    font-size: 27px;
-  }
-
-  .me__title{
-    font-size: 80px;
-  }
-
-  .me__caption{
-    font-size: 25px;
-  }
-
-  .me__descr,
-  .me__descr2{
-    font-size: 14px !important;
-    line-height: 115%;
-  }
-
-  .project__item{
-    height: 60vh;
-  }
-
-  .project__descr{
-    font-size: 21px;
-  }
-
-  .project__svg{
-    width: 30%;
-    height: 30%;
-  }
-
-  .me__photo{
-    height: 42vh;
-    width: 20vw;
-  }
-}
-
-@media (max-width: 1536px) {
-  .header__nav .header__link{
-    font-size: 95px;
-  }
-
-  .header__am{
-    font-size: 27px;
-  }
-
-  .me__title{
-    font-size: 95px;
-  }
-
-  .me__caption{
-    font-size: 30px;
-  }
-
-  .me__descr,
-  .me__descr2{
-    font-size: 22px;
-    line-height: 115%;
-  }
-
-  .project__item{
-    height: 60vh;
-  }
-
-  .project__descr{
-    font-size: 21px;
-  }
-
-  .project__svg{
-    width: 30%;
-    height: 30%;
-  }
-
-  .me__photo{
-    height: 42vh;
-    width: 20vw;
-  }
-}
-
-@media (max-width: 1366px) {
-  .header__nav .header__link{
-    font-size: 90px;
-  }
-
-  .header__am{
-    font-size: 27px;
-  }
-
-  .me__title{
-    font-size: 95px;
-  }
-
-  .me__caption{
-    font-size: 30px;
-  }
-
-  .me__descr,
-  .me__descr2{
-    font-size: 18px;
-    line-height: 115%;
-  }
-
-  .project__item{
-    min-height: 50%;
-  }
-
-  .project__descr{
-    font-size: 21px;
-  }
-
-  .project__svg{
-    width: 30%;
-    height: 30%;
-  }
-
-  .me__photo{
-    height: 42vh;
-    width: 20vw;
-  }
-}
-
-@media (max-width: 1280px) {
-  .header__nav .header__link{
-    font-size: 60px;
-  }
-
-  .header__am{
-    font-size: 20px;
-  }
-
-  .me__title{
-    font-size: 60px;
-  }
-
-  .me__caption{
-    font-size: 21px;
-  }
-
-  .me__descr,
-  .me__descr2{
-    font-size: 17px;
-    line-height: 110%;
-  }
-
-  .project__descr{
-    font-size: 15px;
-  }
-
-
-  .me__photo{
-    height: 42vh;
-    width: 20vw;
-  }
-}
-
-@media (max-width: 1400px) {
-  #header{
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .header__nav .header__link{
-    font-size: 60px;
-  }
-
-  .header__am{
-    font-size: 20px;
-  }
-
-  .me__title{
-    font-size: 60px;
-  }
-
-  .me__caption{
-    font-size: 22px;
-  }
-
-  .me__descr,
-  .me__descr2{
-    font-size: 17px;
-    line-height: 110%;
-  }
-
-  .me__link{
-    font-size: 15px;
-  }
-
-  .project__descr{
-    font-size: 15px;
-  }
-
-
-  .me__photo{
-    height: 50vh;
-    width: 20vw;
-  }
-
-  .footer__descr{
-    font-size: 15px;
-  }
 }
