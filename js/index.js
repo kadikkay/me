@@ -32,8 +32,11 @@ $(document).ready(function(){
       1480: {
         items: 2
       },
-      320: {
+      1025: {
         items: 2
+      },
+      320: {
+        items: 1
       }
     }
   });
