@@ -464,7 +464,7 @@ header{
   transform: translate(30%) scale(1.2);
 }
 
-@media (max-width: 1024px){
+@media (max-width: 800px){
   .title__bs{
   font-size: 8vw;
 }
