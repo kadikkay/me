@@ -209,6 +209,11 @@ header{
 
 .me__link{
   color: #fff;
+  transition: transform .3s ease-in-out;
+}
+
+.me__link:hover{
+  transform: scale(1.2);
 }
 
 .me__link:not(:last-child){
