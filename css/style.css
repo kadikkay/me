@@ -491,11 +491,28 @@ header{
 }
 
 .project__svg img{
-  width: 35vw;
-  height: 35vw;
+  width: 55vw;
+  height: 55vw;
+}
+
+.project__descr{
+  font-size: 2.7vw;
 }
 
 .footer__descr{
   width: 70%;
 }
+
+.owl-prev{
+  top: inherit;
+  bottom: -4%;
+  right: 50%;
+}
+
+.owl-next{
+  top: inherit;
+  bottom: -4%;
+  right: 40%;
+}
+
 }
