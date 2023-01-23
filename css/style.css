@@ -490,9 +490,23 @@ header{
   margin-bottom: 10px;
 }
 
+.project__item{
+  height: 100%;
+}
+
+.project__svg{
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.owl-carousel .owl-item img{
+  width: 65%;
+}
+
 .project__svg img{
-  width: 55vw;
-  height: 55vw;
+  height: 100%;
 }
 
 .project__descr{
@@ -503,16 +517,10 @@ header{
   width: 70%;
 }
 
-.owl-prev{
-  top: inherit;
-  bottom: -4%;
-  right: 50%;
+.owl-prev,
+.owl-next{
+  display: none;
 }
 
-.owl-next{
-  top: inherit;
-  bottom: -4%;
-  right: 40%;
-}
 
 }
