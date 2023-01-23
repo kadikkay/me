@@ -32,7 +32,7 @@ $(document).ready(function(){
       1480: {
         items: 2
       },
-      1280: {
+      320: {
         items: 2
       }
     }
